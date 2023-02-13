@@ -1,0 +1,61 @@
+body{
+    position: relative;
+ 
+background-color: rgb(184, 136, 229);
+}
+.container{
+
+position: absolute;
+top: 50%;
+left: 50%;
+margin: 200px auto;
+transform: translate(-50%,-50%);
+width: 500px;
+}
+.todo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eeeeeee8;
+
+margin-bottom:20px ;
+ padding: 0 20px;
+ border-radius: 5px;
+ -webkit-box-shadow: -5px -3px 16px 0px rgba(0,0,0,0.75);
+ -moz-box-shadow: -5px -3px 16px 0px rgba(0,0,0,0.75);
+ box-shadow: -5px -3px 16px 0px rgba(0,0,0,0.75);
+}
+.todo .inp{
+    padding:15px 20px;
+border-radius:5px;
+border: none;
+/* width: 1000px; */
+margin: 20px;
+outline: none;
+}
+
+.todo .add{
+    padding:15px 20px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    color: blueviolet;
+    cursor: pointer;
+}
+.list{
+    background-color: #eee;
+    padding: 30px;
+ border-radius: 5px;
+}
+.addlist{
+    background-color: rgb(172, 105, 236);
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    text-transform: capitalize;
+
+}
